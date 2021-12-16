@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from 'react-redux';
-import { Field, reduxForm, formValueSelector, reset } from 'redux-form';
-import { newComment } from '../actions/PostAction';
+import { Field, reduxForm, reset } from 'redux-form';
+import { newComment } from '../actions/CommentAction';
 
 class ReplyForm extends React.Component {
 
@@ -36,7 +36,7 @@ class ReplyForm extends React.Component {
     }
 
     onSubmit(values) {
-        const { dispatch } = this.props        
+        const { dispatch } = this.props
         this.props.newComment(values, (response) => {
             if (response.status = "success") {
                 if (dispatch) {

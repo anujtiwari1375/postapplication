@@ -6,7 +6,8 @@ import map from 'lodash/map';
 import moment from 'moment-timezone';
 import ReplyForm from "./ReplyForm";
 import isExists from '../functions/isExists';
-import { singlePost, newComment, listComment } from '../actions/PostAction';
+import { singlePost } from '../actions/PostAction';
+import { newComment, listComment } from '../actions/CommentAction';
 import Header from "./Header";
 
 const _ = {
@@ -262,11 +263,11 @@ class SinglePost extends React.Component {
 }
 
 function mapStateToProps(state) {
-    const { post } = state;
+    const { post, comment } = state;
     return {
         post_list: post.post_list,
         single_post: post.single_post,
-        list_comment: post.list_comment,
+        list_comment: comment.list_comment,
     }
 }
 

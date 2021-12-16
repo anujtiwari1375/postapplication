@@ -1,4 +1,4 @@
-import { POST_LIST, SINGLE_POST, LIST_COMMENT } from '../actions/PostAction';
+import { POST_LIST, SINGLE_POST } from '../actions/PostAction';
 
 export default function (state = {}, action) {
     switch (action.type) {
@@ -11,11 +11,6 @@ export default function (state = {}, action) {
             var single_post = action.payload;
             return {
                 ...state, single_post
-            };
-        case LIST_COMMENT:
-            var list_comment = action.payload;
-            return {
-                ...state, list_comment
             };
         default:
             return state;
