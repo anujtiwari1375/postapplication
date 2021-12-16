@@ -1,0 +1,447 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 25, 2014, 1:53:04 PM
+    Author     : Krish
+*/
+/* #Default 
+===================================================*/
+html, body {
+    font-family: 'proxima_nova_rgregular', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 0.67em 0;
+    font-size: 30px;
+    font-family: 'proxima_novasemibold';
+}
+
+h2 {
+    margin: 0.83em 0;
+    font-size: 26px;
+    font-family: 'proxima_novasemibold';
+}
+
+h3 {
+    margin: 1em 0;
+    font-size: 24px;
+    font-family: 'proxima_novasemibold';
+}
+
+h4 {
+    margin: 1.33em 0;
+    font-size: 22px;
+    font-family: 'proxima_novasemibold';
+}
+
+h5 {
+    margin: 1.67em 0;
+    font-size: 20px;
+    font-family: 'proxima_novasemibold';
+}
+
+h6 {
+    margin: 2.33em 0;
+    font-size: 18px;
+    font-family: 'proxima_novasemibold';
+}
+
+p {
+    color: #3d3d3d;
+    margin: 1em 0;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+li {
+    line-height: 32px;
+    color: #464646;
+    margin-bottom: 7px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    word-break: break-word;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'proxima_novasemibold', sans-serif;
+    /*color: #1a1a1a;*/
+    color: #136697 !important;
+
+}
+
+.head-color {
+    color: #136697 !important;
+}
+
+.m-t-0 {
+    margin-top: 0px !important;
+}
+
+.m-t-10 {
+    margin-top: 10px !important;
+}
+
+.m-t-20 {
+    margin-top: 20px !important;
+}
+
+.m-t-30 {
+    margin-top: 30px !important;
+}
+
+.m-t-40 {
+    margin-top: 40px !important;
+}
+
+
+.m-b-0 {
+    margin-bottom: 0px !important;
+}
+
+.m-b-10 {
+    margin-bottom: 10px !important;
+}
+
+.m-b-20 {
+    margin-bottom: 20px !important;
+}
+
+.m-b-30 {
+    margin-bottom: 30px !important;
+}
+
+.m-b-40 {
+    margin-bottom: 40px !important;
+}
+
+.m-r-0 {
+    margin-right: 0px !important;
+}
+
+.m-r-5{
+    margin-right: 5px;
+}
+
+.m-l-0 {
+    margin-right: 0px !important;
+}
+
+.p-t-0 {
+    padding-top: 0px !important;
+}
+
+.p-b-0 {
+    padding-bottom: 0px !important;
+}
+
+.p-r-0 {
+    padding-right: 0px !important;
+}
+
+.p-l-0 {
+    padding-left: 0px !important;
+}
+
+.p-t-5 {
+    padding-top: 5px;
+}
+
+.p-t-10 {
+    padding-top: 10px;
+}
+
+.p-t-15 {
+    padding-top: 20px;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px;
+}
+
+.p-b-10 {
+    padding-bottom: 10px;
+}
+
+.p-b-15 {
+    padding-bottom: 15px;
+}
+
+.p-b-20 {
+    padding-bottom: 20px;
+}
+
+.p-l-15 {
+    padding-left: 15px;
+}
+
+.p-r-15 {
+    padding-right: 15px;
+}
+
+.dl {
+    display: inline-block !important;
+}
+
+.db {
+    display: block !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.font-semi-bold {
+    font-family: 'proxima_novasemibold' !important;
+}
+
+#content_wrapper h1, #content_wrapper h2, #content_wrapper h3, #content_wrapper h4, #content_wrapper h5, #content_wrapper h6 {
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    /*color:#1f96da;*/
+    color: #ffc900;
+}
+
+a:hover,
+a:active {
+    /*color:#136da0;*/
+    text-decoration: none;
+    color: #e6b708;
+
+}
+
+* {
+    outline: 0;
+}
+
+*:hover {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.sticky,
+.gallery-caption,
+.bypostauthor {}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+.light-weight {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-header {
+    background: #0d426c;
+    z-index: 99;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+#content_wrapper.content {
+    padding-top: 70px;
+    background-color: #f8f9fa;
+    padding-bottom: 70px;
+    min-height: 100vh;
+}
+
+#content_wrapper.content .post {
+    /* border: 1px solid #e2e2e2; */
+    background-color: #fff;
+    padding: 10px 38px 30px 38px;
+    /* box-shadow: 0px 3px 0px 0px rgb(211 211 211); */
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#content_wrapper.content .post .post-title {
+    font-size: 30px;
+    color: #1a1a1a;
+    line-height: 1.6em;
+    margin-bottom: 5px;
+}
+
+
+#content_wrapper.content .post .post-meta {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#content_wrapper.content .post .post-meta li a, #content_wrapper.content .post .post-meta li {
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    color: #999;
+}
+
+#content_wrapper.content .post .post-title a {
+    color: #1a1a1a;
+    font-family: 'proxima_novasemibold';
+}
+
+#content_wrapper.content .post .post-content, #content_wrapper.content .post p {
+    font-size: 18px;
+    /* color: #4d4d4d; */
+    line-height: 1.7em;
+    color: #464646;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 0%);
+}
+
+#content_wrapper.content .post .read-more {
+    display: block;
+    float: right;
+    clear: both;
+    font-size: 18px;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #f7d700;
+    color: #222;
+    padding: 4px 16px;
+    border: 3px double #ddd;
+}
+
+#content_wrapper.content .post .read-more:hover {
+    /* background-color: #09466f; */
+    background-color: #ffffff;
+}
+
+#content_wrapper.content .blog-content .post .post-content p:first-of-type::first-letter {
+    color: #165a72;
+    font-size: 40px;
+    vertical-align: middle;
+    float: left;
+    font-size: 75px;
+    line-height: 65px;
+    padding-top: 0;
+    padding-right: 8px;
+}
+
+#content_wrapper.content .blog-content .post .post-content p:first-of-type::first-letter {
+    color: #165a72;
+    font-size: 40px;
+    vertical-align: middle;
+    float: left;
+    font-size: 75px;
+    line-height: 65px;
+    padding-top: 0;
+    padding-right: 8px;
+}
+
+.single-blog-title a {
+    color: #ffffff !important;
+    font-weight: bolder;
+}
+
+.single-blog-title {
+    color: #ffffff !important;
+    font-weight: bolder;
+}
+
+.add-new-post {
+    display: inline-block;
+    text-align: right;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+a.add-new-post {
+    margin: 1em;
+}
+
+#content_wrapper.content {
+    margin-top: 100px;
+}
+
+.pagination li.active a, .pagination li a:hover {
+    background: #f7d700 !important;
+    color: #ffffff;
+    border: 3px double #ddd !important;
+    box-shadow: none !important;
+}
+
+.pagination li a {
+    cursor: pointer;
+    padding: 7px 7px 4px 14px;
+    box-shadow: none !important;
+    text-decoration: none;
+    height: 40px px;
+    display: inline-block;
+    margin-right: 8px;
+    color: #777272;
+    line-height: 23px;
+    color: #222;
+    padding: 4px 16px;
+    border: 3px double #ddd;
+}
+
+#comment-form-wrapper {
+    margin-bottom: 15px;
+}
+
+.comment-box {
+    border: 3px solid #F9F9FB;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.user-icon {
+    padding: 10px 17px;
+    border-radius: 30px;
+    background-color: rgba(0, 32, 96, .12) !important;
+    margin-right: 15px;
+    position: absolute;
+    top: 0;
+}
+
+.user-info {
+    padding-left: 65px;
+}
+
+.author-name, .reply-button {
+    color: #192cdf;
+    font-size: 16px;
+}
+
+.comment-date {
+    font-size: 14px;
+    color: #949397;
+}
+
+.comment-content {
+    font-size: 16px;
+    margin-top: 10px;
+}
